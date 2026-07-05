@@ -1,0 +1,6 @@
+.env
+credenciales/*.json
+__pycache__/
+*.pyc
+output/*.xlsx
+output/*.pdf

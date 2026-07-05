@@ -1,0 +1,32 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Variables de entorno y credenciales
+.env
+credenciales/
+*.json
+!package.json
+!tsconfig.json
+gen-lang-client-*.json
+
+# Logs y bases de datos locales
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+ejecuciones.db
+
+# Archivos de salida y temporales
+output/
+*.pdf
+*.xlsx
+!sentencias.xlsx
+
+# macOS/Windows
+.DS_Store
+Thumbs.db
